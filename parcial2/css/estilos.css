@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&family=Oswald:wght@700&display=swap');
+
+body{
+
+	margin: 0;
+	padding: 0;
+	font-family: 'Dosis', sans-serif;
+	;
+	background-color: #CDCBD6;
+
+}
+.encabezado{
+	background-color: #D96846;
+	
+}
+
+
+.navbar {
+	background-color: #b3b3b331;
+	overflow: hidden;
+}
+
+.navbar a {
+	float: left;
+	padding: 12px;
+	color: #333;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	background-color: #94bdec;
+}
+
+.navbar a.active {
+	background-color: #a3b4c8;
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+	padding: 4px;
+
+
+}
+h2 {
+	font-family: 'Dosis', sans-serif
+	
+}
+
+
+.centro{
+	margin: 50px;
+	margin-top: 2px;
+	border: 3px;
+	border-color: white;
+	border-radius: 10px 30px 10px 30px;
+}
+
+.tabla{
+	width: auto;
+	height: 300px;
+	border: 3px solid #2F3020;
+	padding: 10px;
+	background-color: #cc6d3d;
+}
+.tabla td{
+	align-items: center;
+}
